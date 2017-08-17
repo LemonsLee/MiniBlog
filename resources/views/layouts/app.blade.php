@@ -5,7 +5,7 @@
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
-        <style>
+        <style type="text/css">
             body {
 		margin: 0;
 		padding: 0;
