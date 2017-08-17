@@ -6,33 +6,52 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
         <style>
-            html, body {
-                height: 100%;
-            }
-
             body {
-                margin: 0;
-                padding: 0;
-                width: 100%;
-                display: table;
-                font-weight: 100;
-                font-family: 'Lato';
-            }
+		margin: 0;
+		padding: 0;
+		background-color: #DEDEDE;
+	    }
 
-            .container {
-                text-align: center;
-                display: table-cell;
-                vertical-align: middle;
-            }
+	    a {
+		text-decoration: none;
+	    }
 
-            .content {
-                text-align: center;
-                display: inline-block;
-            }
+	    .header {
+		padding:10px 50px 10px 50px;
+		border-bottom: 1px solid #eeeeee;
+	    }
 
-            .title {
-                font-size: 96px;
-            }
+	    .header>.logo {
+		display: inline-block;
+	    }
+
+	    .header>.menu {
+		display: inline-block;
+		margin-left: 20px;
+	    }
+
+	    .left {
+		background-color: white;
+		margin: 25px 300px 25px 25px;
+		padding: 25px;
+		box-shadow: 1px 1px 2px 1px #848484;
+	    }
+
+	    .right {
+		background-color: white;
+		width: 200px;
+		margin: 25px;
+		padding: 25px;
+		box-shadow: 1px 1px 2px 1px #848484;
+		position: absolute;
+		top: 92px;
+		right: 0;
+	    }
+
+	    .footer {
+		padding:10px 50px 10px 50px;
+		background-color: gray;
+	    }
         </style>
     </head>
     <body>
