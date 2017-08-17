@@ -71,6 +71,12 @@
 		@yield('content')
 	    </div>
 	    <div class="right">
+		<div style="padding:20px; border:1px solid black;">
+		    <h3>Author</h3>
+		    <p>name: LemonsLee</p>
+		    <p>age: 25</p>
+		    <p>Tel: 158-xxxx-0678
+		</div>
 	    </div>
 	</div>
 
